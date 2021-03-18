@@ -7,40 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="styles.css">
 
     <title>Bob's Burgers</title>
 </head>
-
+<!-- ADD VARIABLES LIKE IN CSS Preprocessors: Scss -->
 <body>
- <header>
-     <div class="container container-fluid">
-   
-    <div class="row">
-        <div class="col">
-            <img src="img/Banner.png" class="img-fluid" >
+    <header>
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="img/Banner.png" class="img-fluid full-width">
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md">
+<!-- CHANGE HOVER COLOR -->
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-item nav-link" href="#">Home </a>
+                        <a class="nav-item nav-link" href="menu.html">Menu</a>
+                        <a class="nav-item nav-link" href="aboutus.html">About Us</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container  mx-auto">
+        <div class="row">
+            <div class="col">
+                <h1>
+                    WELCOME TO OUR GRAND RE-RE-RE-RE-OPENING!
+                </h1>
+            </div>
+        </div>
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col">
+                    <img src="img/restaurant.png" class="img-fluid full-width">
+                </div>
+            </div>
         </div>
     </div>
-</div>
-
-
-
-    </header>
-    <div class="container">
-    <div class="col">
-        
-        <h1>
-            WELCOME TO OUR GRAND RE-RE-RE-RE-OPENING!
-        </h1>
-    </div>
-    
-    </div>
-
-    <div class="container">
-        <img src="img/restaurant.png">
-
-    </div>
-
 
     <footer>
         <div class="container">
@@ -49,21 +60,23 @@
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Sites</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-6 col-sm-5 text-center">
                     <h5>Social</h5>
-                    <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a href="http://instagram.com/bobsburgersfox" target="external"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/BobsBurgers" target="external"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/BobsBurgersFOX" target="external"><i class="fa fa-twitter"></i></a>
+                    <a href="oops1.html"><i class="fa fa-youtube"></i></a>
+
                 </div>
                 <div class="col-sm-4 text-center">
-                    <i class="fa fa-phone fa-lg text-primary"></i> #<br />
+                    <i class="fa fa-phone fa-lg text-primary"></i>(609) 555-2627<br />
                     <i class="fa fa-envelope fa-lg text-primary"></i> burgers@bobs.com
+                    <!-- MAKE MODAL FOR EMAIL BUTTON -->
                 </div>
             </div>
         </div>
